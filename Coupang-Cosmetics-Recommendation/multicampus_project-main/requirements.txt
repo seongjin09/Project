@@ -1,0 +1,42 @@
+# 웹 크롤링 라이브러리
+selenium
+undetected-chromedriver
+beautifulsoup4
+
+# 자연어 처리 라이브러리
+kiwipiepy
+gensim
+transformers
+torch
+datasets
+accelerate
+
+# 데이터 처리 라이브러리
+numpy
+pandas
+pyarrow
+
+# 머신러닝 라이브러리
+scikit-learn
+joblib
+xgboost
+lightgbm
+
+# 시각화 라이브러리
+matplotlib
+seaborn
+wordcloud
+
+# 웹 애플리케이션
+streamlit
+plotly
+
+# AWS
+awswrangler
+boto3
+
+# Hugging Face
+huggingface-hub
+
+# 유틸리티
+tqdm

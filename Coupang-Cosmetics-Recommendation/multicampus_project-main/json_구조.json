@@ -1,0 +1,52 @@
+{
+  "search_name": "string",
+  "total_collected_reviews": "int",
+  "total_text_reviews": "int",
+  "total_product": "int",
+  "total_rating_distribution": {
+    "5": "int",
+    "4": "int",
+    "3": "int",
+    "2": "int",
+    "1": "int"
+  },
+  "data": [
+    {
+      "product_info": {
+        "product_id": "string",
+        "brand": "string",
+        "category_path": "string",
+        "product_name": "string",
+        "price": "string",
+        "delivery_type": "string",
+        "total_reviews": "string",
+        "product_url": "string",
+        "rating_distribution": {
+          "5": "int",
+          "4": "int",
+          "3": "int",
+          "2": "int",
+          "1": "int"
+        }
+      },
+      "reviews": {
+        "total_count": "int",
+        "text_count": "int",
+        "data": [
+          {
+            "id": "int",
+            "score": "int",
+            "date": "string",
+            "collected_at": "string",
+            "nickname": "string",
+            "has_image": "boolean",
+            "helpful_count": "int",
+            "title": "string",
+            "content": "string",
+            "full_text": "string"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+name: multicampus_project
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.12
+  - numpy
+  - tqdm
+  - pandas
+  - pyarrow
+  - matplotlib
+  - seaborn
+  - scikit-learn
+  - joblib
+  - xgboost
+  - lightgbm
+  - pip
+  - pip:
+      - gensim
+      - kiwipiepy
+      - selenium
+      - undetected-chromedriver
+      - beautifulsoup4
+      - wordcloud
+      - transformers
+      - torch
+      - datasets
+      - accelerate
+      - streamlit
+      - sentence-transformers
+      - plotly
+      - awswrangler
+      - boto3
+      - huggingface-hub
+# 설치 법
+# conda env update -f _environment.yml
